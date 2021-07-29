@@ -1,0 +1,35 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Mantenimiento y Limpieza",
+            "descripcion": "Te hacemos la limpieza y reempastado de tu ordenador"
+        },
+        {
+            "id": 2,
+            "nombre": "Sustitución de Componentes",
+            "descripcion": "Reemplazamos algún componente que se haya dañado en tu ordenador"
+        },
+        {
+            "id": 3,
+            "nombre": "Instalación de software",
+            "descripcion": "Proporcionamos servicios de instalación de software bajo licencias legales"
+        },
+        {
+            "id": 4,
+            "nombre": "Ensamblado de equipos de oficina",
+            "descripcion": "Proporcionamos servicios de ensamblaje de equipo acorde a tu presupuesto"
+        },
+        {
+            "id": 5,
+            "nombre": "Ensamblado de PC's gamers",
+            "descripcion": "Proporcionamos servicios de ensamblaje de equipo acorde a tu presupuesto"
+        },
+        {
+            "id": 6,
+            "nombre": "Desarrollo de software",
+            "descripcion": "Proporcionamos servicios de desarrollo de software"
+        }
+       
+    ]
+}
