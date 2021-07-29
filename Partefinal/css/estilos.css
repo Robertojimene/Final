@@ -1,0 +1,84 @@
+body {
+background: black;
+}
+.header {
+    text-align: center;
+    color: white;
+}
+@media (min-width: 768px) {
+    .contenedor {
+      display: grid;
+      gap: 5rem;
+      grid-template-columns: repeat(2, 1fr);
+      height: 100vh; 
+    } 
+}
+  .contenedor .imagen {
+    height: 30rem;
+    background-image: url(../img/imagen1.jpg);
+    background-size: cover;
+    background-position: center center; 
+}
+
+    @media (min-width: 768px) {
+      .contenedor .imagen {
+        height: auto; 
+    } 
+}
+        .app {
+            width: 95%;
+            margin: 0 auto;
+            padding-top: 2.5rem; 
+        }
+
+        .seccion {
+            display: none;
+            margin-top: 2.5rem; 
+        }
+          
+          .mostrar-seccion {
+            display: block !important; 
+        }
+
+        @media (min-width: 768px) {
+            .lista-servicios {
+              display: grid;
+              gap: 2rem;
+              grid-template-columns: repeat(1, 1fr); 
+            } 
+        }
+          .lista-servicios p {
+            margin: 0 0 1.25rem 0; 
+        }
+
+          .lista-servicios .servicio {
+            margin-bottom: 2rem;
+            background: #FFFFFF;
+            padding: 2.5rem;
+            border-radius: 1rem; 
+        }
+            @media (min-width: 768px) {
+              .lista-servicios .servicio {
+                margin-bottom: 0; 
+            } 
+        }
+            .lista-servicios .servicio .nombre-servicio {
+              color: #1a1b15; 
+            }
+
+            .lista-servicios .servicio .descripcion-servicio {
+              color: #0da6f3;
+              margin: 0;
+              font-size: 3rem;
+              font-weight: 700; 
+            }
+
+            .lista-servicios .servicio.seleccionado {
+              background: #0da6f3; 
+            
+            }
+              .lista-servicios .servicio.seleccionado p {
+                color: #FFFFFF; 
+            
+        }
+          
